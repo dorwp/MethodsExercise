@@ -20,6 +20,28 @@
             Console.WriteLine($"Hello {name}, Your favorite color is {favColor}, your favorite animal is a {favAnimal}," +
                               $" and your favorite language is {favLanguage}!");
         }
+
+        public static int Add(int a, int b)
+        {
+            return a + b;
+        }
+
+        public static int Subtract(int a, int b)
+        {
+            return a - b;
+        }
+
+        public static int Multiply(int a, int b)
+        {
+            return a * b;
+        }
+
+        public static int divide(int a, int b)
+        {
+            return a / b;
+        }
+        
+        
         
         static void Main(string[] args)
         {
